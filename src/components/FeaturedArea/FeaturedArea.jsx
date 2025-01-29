@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { FiChevronRight } from "react-icons/fi";
-import FeatImg from "../../assets/images/resources/featMockup.jpg";
+import FeatImg from "../../assets/yaaqin/smile.jpg";
 import Shape1 from "../../assets/images/shape-1.png";
 import Shape2 from "../../assets/images/shape-2.png";
 import Shape3 from "../../assets/images/shape-3.png";
@@ -47,23 +47,20 @@ const FeaturedArea = () => {
                   Hello, I Am
                 </h3>
                 <h2 className="font-bold text-[2.3rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] xl:text-[5rem] font-Poppins text-white uppercase">
-                  Alycia
-                  <span className="font-normal text-[2.3rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] xl:text-[5rem] text-accent font-Poppins uppercase">
+                  Yaaqin
+                  {/* <span className="font-normal text-[2.3rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] xl:text-[5rem] text-accent font-Poppins uppercase">
                     Carey
-                  </span>
+                  </span> */}
                 </h2>
                 <h5 className="md:justify-start justify-center font-bold text-[1rem] sm:text-[1.125rem] md:text-[1.25rem] font-Poppins text-white uppercase flex items-center gap-2.5 tracking-[1px]">
                   <span className="w-[2.5rem] sm:w-[3rem] md:w-[4.375rem] bg-accent h-[1px]"></span>
-                  UI/UX Designer
+                  Frontend Dev / Web3 Enthusiast
                 </h5>
                 <p className="text-[1rem] sm:text-[1.125rem] md:text-[1.25rem] lg:text-[1.25rem] xl:text-[1.375rem] text-desc md:leading-9 sm:leading-7 leading-6 w-full md:w-full lg:w-full xl:w-3/4 mt-6">
-                  We're an award-winning, forward thinking, boutique digital &
-                  creative in Edmonton, Canada.
+                  I specialize in building sleek, high-performance web applications with React, Next.js, and modern frontend technologies.
                 </p>
                 <p className="text-[1rem] sm:text-[1.125rem] md:text-[1.25rem] lg:text-[1.25rem] xl:text-[1.375rem] text-desc md:leading-9 sm:leading-7 leading-6 w-full md:w-full lg:w-full xl:w-3/4 mt-4">
-                  Our strategists, designers and coders work with clients from
-                  all over the world to build successful,
-                </p>
+                  With a passion for Web3, I explore how blockchain, dApps, and smart contracts can redefine digital experiences and user interactions.                </p>
                 <div className="flex items-center md:justify-start justify-center sm:gap-8 md:gap-10 lg:gap-15 xl:gap-20 gap-8 md:mt-[3.125rem] mt-[1.875rem]">
                   <Link
                     className="text-accent uppercase md:text-[1.125rem] text-[1rem] flex gap-5 items-center hover:text-white"

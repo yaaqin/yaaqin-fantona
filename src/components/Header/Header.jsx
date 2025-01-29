@@ -1,7 +1,7 @@
 import React, { useLayoutEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { CgClose, CgMenuRight } from "react-icons/cg";
-import Logo from "../../assets/images/logo.png";
+import Logo from "../../assets/yaaqin/qBlue.png";
 import { SocialLinks6 } from "../SocialLinks";
 import MenuLinks from "./MenuLinks";
 import { MenuData } from "./SideMenu/MenuData";
@@ -34,7 +34,7 @@ const Header = () => {
             <div className="flex items-center justify-between w-full topbarInner">
               <div className="logo inline-block max-w-[50%]">
                 <Link to="/" title="Fastone">
-                  <img src={Logo} alt="Logo"></img>
+                  <img src={Logo} alt="Logo" className="h-16"></img>
                 </Link>
                 {/* Logo */}
               </div>

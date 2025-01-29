@@ -1,8 +1,8 @@
 import PatternImg from "../../assets/images/patternImg.jpg";
 import PatternImg2 from "../../assets/images/patternImg2.jpg";
-import AboutUsBg from "../../assets/images/secBg.jpg";
+import AboutUsBg from "../../assets/yaaqin/smile.jpg";
 import { SectionTitle } from "../SectionTitles";
-import AboutImg from "../../assets/images/resources/aboutImg.jpg";
+import AboutImg from "../../assets/yaaqin/yaaqin.jpg";
 import { ReactComponent as Signature } from "../../lib/icons/Signature.svg";
 import { GoPrimitiveDot } from "react-icons/go";
 
@@ -48,7 +48,7 @@ const AboutUs = (props) => {
                   <h4 className="text-accent2 font-light text-[1.325rem] md:text-[1.5rem] leading-normal font-Poppins">
                     My name is{" "}
                     <span className="text-accent font-bold uppercase text-[1.5rem] md:text-[1.875rem]">
-                      Alycia Carey
+                      Yaaqin
                     </span>
                   </h4>
                   <ul className="grid grid-cols-1 gap-5 mt-6">
@@ -57,7 +57,7 @@ const AboutUs = (props) => {
                         Age:
                       </strong>
                       <span className="text-desc2 font-semibold font-NunitoSans col-span-2">
-                        28
+                        23
                       </span>
                     </li>
                     <li className="grid grid-cols-3 gap-4 text-[1rem] md:text-[1.125rem]">
@@ -67,10 +67,10 @@ const AboutUs = (props) => {
                       <span className="text-desc2 font-semibold font-NunitoSans col-span-2">
                         <a
                           className="text-desc2 font-semibold font-NunitoSans hover:text-accent"
-                          href="tel:+12 986 987 7867"
+                          href="tel:+62 857 1961 7320"
                           title=""
                         >
-                          +12 986 987 7867
+                          +62 857 1961 7320
                         </a>
                       </span>
                     </li>
@@ -84,7 +84,7 @@ const AboutUs = (props) => {
                           href="mailto:youremail@gmail.com"
                           title=""
                         >
-                          youremail@gmail.com
+                          yaqin.me@gmail.com
                         </a>
                       </span>
                     </li>
@@ -93,7 +93,7 @@ const AboutUs = (props) => {
                         Address:
                       </strong>
                       <span className="text-desc2 font-semibold font-NunitoSans col-span-2">
-                        37, Pollsatnd, New York, United State
+                        BSD, Tangerang, Indonesia
                       </span>
                     </li>
                     <li className="grid grid-cols-3 gap-4 text-[1rem] md:text-[1.125rem]">

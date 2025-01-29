@@ -1,6 +1,6 @@
 import React, { useLayoutEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import Logo2 from "../../assets/images/logo2.png";
+import Logo2 from "../../assets/yaaqin/qBlue.png";
 import { ResponsiveHeader } from "../ResponsiveHeader";
 import { SocialLinks2 } from "../SocialLinks";
 import MenuLinks from "./MenuLinks";
@@ -44,7 +44,7 @@ const Header2 = () => {
             <div className="logoMenuInner flex items-center justify-between relative w-full">
               <div className="logo inline-block max-w-[50%]">
                 <Link to="/home2" title="Fastone">
-                  <img src={Logo2} alt="Logo"></img>
+                  <img src={Logo2} alt="Logo" className="h-8"></img>
                 </Link>
               </div>
               <MenuLinks></MenuLinks>

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { CgClose } from "react-icons/cg";
 import { FiMenu } from "react-icons/fi";
-import Logo from "../../assets/images/logo2.png";
+import Logo from "../../assets/yaaqin/qBlue.png";
 import { ResponsiveMenuData } from "./ResponsiveSideMenu/ResponsiveMenuData";
 import ResponsiveSubMenu from "./ResponsiveSideMenu/ResponsiveSubMenu";
 
@@ -17,7 +17,7 @@ const ResponsiveHeader = () => {
           <div className="flex items-center justify-between w-full topbarInner">
             <div className="logo inline-block max-w-[50%]">
               <Link to="/" title="Fastone">
-                <img src={Logo} alt="Logo"></img>
+                <img src={Logo} alt="Logo" className="h-12"></img>
               </Link>
               {/* Logo */}
             </div>
