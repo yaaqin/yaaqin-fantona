@@ -1,9 +1,9 @@
-import { conInfo2 } from "../../data/contact-info2";
+import { conInfo } from "../../data/contact-info";
 
 const ContactInfo2 = () => {
   return (
     <div className="conInfoList grid gap-[1.75rem] grid-cols-1 md:grid-cols-2 lg:grid-cols-3 relative w-full">
-      {conInfo2.map(
+      {conInfo.map(
         (item, index) =>
           index < 3 && (
             <div

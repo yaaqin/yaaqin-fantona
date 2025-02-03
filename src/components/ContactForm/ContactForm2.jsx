@@ -1,11 +1,11 @@
-import SectionBg from "../../assets/images/secBg5.jpg";
+import SectionBg from "../../assets/yaaqin/bg2023.jpg";
 import { SectionTitleLightCenter2 } from "../SectionTitles";
 
 const ContactForm2 = () => {
   return (
     <div className="contactFormWrap py-12 md:py-16 xl:pt-[5.625rem] xl:pb-[6.5625rem] px-[1.875rem] sm:px-[2.5rem] md:px-[5rem] lg:px-[9.375rem] relative w-full">
       <div
-        className="fixedBg bg-center bg-no-repeat before:absolute before:z-[1] before:inset-0 before:opacity-[.85] before:bg-accent before:rounded-[10px] before:sm:rounded-[1.25rem] before:md:rounded-[3.125rem] rounded-[10px] sm:rounded-[1.25rem] md:rounded-[3.125rem] bg-accent bg-blend-multiply overflow-hidden"
+        className="fixedBg bg-center bg-no-repeat before:absolute before:z-[1] before:inset-50 before:opacity-[.85] before:bg-accent before:rounded-[10px] before:sm:rounded-[1.25rem] before:md:rounded-[3.125rem] rounded-[10px] sm:rounded-[1.25rem] md:rounded-[3.125rem] bg-accent bg-blend-multiply overflow-hidden"
         style={{ backgroundImage: `url(${SectionBg})` }}
       ></div>
       <SectionTitleLightCenter2

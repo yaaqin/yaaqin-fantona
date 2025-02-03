@@ -31,7 +31,7 @@ const ServicePage = () => {
           <div className="pageInner grid gap-10 md:gap-20 grid-cols-1 w-full">
             <div className="servicesBoxes relative w-full">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[1.875rem]">
-                {services.map(
+                {services.slice(0,3).map(
                   (item, index) =>
                     index < 6 && (
                       <div className="gridItem" key={index}>
@@ -65,7 +65,7 @@ const ServicePage = () => {
               </div>
               {/* Services Boxes */}
             </div>
-            <Pagination2></Pagination2>
+            {/* <Pagination2></Pagination2> */}
             {/* Page Inner */}
           </div>
         </div>

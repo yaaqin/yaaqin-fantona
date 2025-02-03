@@ -1,7 +1,7 @@
 import { FaHome } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import PatternImg2 from "../../assets/images/patternImg2.jpg";
-import SectionBg from "../../assets/images/secBg12.jpg";
+import PatternImg2 from "../../assets/yaaqin/bg2023.jpg";
+import SectionBg from "../../assets/yaaqin/bg2023.jpg";
 
 const PageTitle = (props) => {
   return (
@@ -13,7 +13,7 @@ const PageTitle = (props) => {
       <div className="container sm:container md:container lg:container xl:max-w-[110.3125rem] mx-auto">
         <div className="pageTitleBox px-5 lg:px-10 xl:px-0 py-10 lg:py-16 xl:py-20 relative lg:min-h-[20rem] xl:min-h-[26.5625rem] flex items-center z-[1] w-full">
           <div
-            className="fixedBg bg-center bg-no-repeat before:absolute before:z-[1] before:inset-0 before:opacity-90 before:bg-dark bg-dark gradBg3 bg-blend-color-dodge rounded-[10px] sm:rounded-[1.25rem] md:rounded-[1.875rem] lg:rounded-[2.5rem] xl:rounded-[3.125rem] overflow-hidden"
+            className="fixedBg bg-center bg-no-repeat before:absolute before:z-[1] before:inset-50 before:opacity-90 before:bg-dark bg-dark gradBg3 bg-blend-color-dodge rounded-[10px] sm:rounded-[1.25rem] md:rounded-[1.875rem] lg:rounded-[2.5rem] xl:rounded-[3.125rem] overflow-hidden"
             style={{ backgroundImage: `url(${SectionBg})` }}
           ></div>
           <div className="flex items-center flex-col md:flex-row justify-center gap-8 md:justify-between relative max-w-[73.125rem] mx-auto w-full">

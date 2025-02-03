@@ -1,4 +1,4 @@
-import SectionBg from "../../assets/images/secBg11.jpg";
+import SectionBg from "../../assets/yaaqin/bg2023.jpg";
 import { ContactForm2 } from "../ContactForm";
 import { ContactInfo2 } from "../ContactInfo";
 import { SocialLinks3 } from "../SocialLinks";
